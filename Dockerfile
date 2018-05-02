@@ -60,5 +60,5 @@ EXPOSE 8888
 ####Autre
 #EXPOSE 5000
 
-
+ENTRYPOINT ["python"]
 CMD ["app.py"]
